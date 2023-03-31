@@ -71,4 +71,9 @@ Remote repository: https://github.com/dimitarhrisss/SI_2023_lab1_213254.git
 26. git push
 
 27. git add logs.txt
+    git add 213254.txt
+    git commit -m "Final commit"
+
+28. git push
+  (tuka mi javi problem, no go reshiv so git pull pa posle pak git push)
     
