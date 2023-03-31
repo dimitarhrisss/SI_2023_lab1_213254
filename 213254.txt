@@ -1,0 +1,74 @@
+Remote repository: https://github.com/dimitarhrisss/SI_2023_lab1_213254.git
+
+4. mkdir SI_2023_lab1_213254
+   cd SI_2023_lab1_213254
+   git init
+
+5. git remote add origin https://github.com/dimitarhrisss/SI_2023_lab1_213254.git
+
+6. notepad README.md
+   git add README.md
+   git commit -m "Initial commit"
+  -----------------------------------------------------
+   [master (root-commit) 3eb44a8] Initial commit
+   1 file changed, 2 insertions(+)
+   create mode 100644 README.md
+
+7. touch SILab1.java  
+   git add SILab1.java
+   git commit -m "Add java class"
+
+8. git push -u origin master
+   SINHRONIZACIJA NA SITE GRANKI
+
+9. git branch bug1
+   git branch bug2
+   git branch bug3
+
+10. git checkout bug1
+    Switched to branch 'bug1'
+
+11. nano SILab1.java
+    git add SILab1.java
+    git commit -m "Fix wrong loop reading"
+    
+12. git checkout bug2
+
+13. nano SILab1.java
+    add SILab1.java
+    commit -m "Fix wrong condition in filterOddNumbers"
+
+14. checkout bug3
+
+15. nano SILab1.java
+    add SILab1.java
+    commit -m "Fix method sumEvenNumbers"
+
+16. git push -u origin bug1
+    git push -u origin bug2
+    git push -u origin bug3
+
+17. git checkout master
+
+18. git merge bug1
+
+19. git push
+
+20. git merge bug2
+
+21. git push
+
+22. git checkout bug3
+    Switched to branch 'bug3'
+    Your branch is up to date with 'origin/bug3'.
+
+23. git rebase master
+
+24. git checkout master
+
+25. git merge bug3
+
+26. git push
+
+27. git add logs.txt
+    
